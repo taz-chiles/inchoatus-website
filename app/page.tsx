@@ -13,17 +13,17 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-2">
-              <Image src="/logo.jpg" alt="Inchoatus Logo" width={200} height={200} className="h-16 w-auto" />
+              <Image src="/logo.jpg" alt="Inchoatus Logo" width={200} height={200} />
             </div>
             <nav className="flex space-x-8">
               <Link href="#services" className="text-gray-700 hover:text-black font-medium">
-                Services
+                How I can help
               </Link>
               <Link href="#case-studies" className="text-gray-700 hover:text-black font-medium">
-                Case Studies
+                See my work
               </Link>
               <Link href="#contact" className="text-gray-700 hover:text-black font-medium">
-                Contact
+                Get in touch
               </Link>
             </nav>
           </div>
@@ -35,10 +35,11 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <Badge className="mb-4 bg-gray-100 text-gray-800 hover:bg-gray-100">Certified Data Professional</Badge>
-              <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-                Data-Driven Solutions
-                <span className="text-gray-900 block">You Can Trust</span>
+              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                Tazmin Chiles
+              </h1>
+              <h1 className="text-3xl md:text-3xl font-bold text-gray-900 mb-6">
+                <span className="text-gray-900 block">Data Consultant | Evaluation Partner</span>
               </h1>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                 Professional data consulting services for businesses ready to unlock insights from their data. From
@@ -46,10 +47,10 @@ export default function HomePage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="bg-black hover:bg-gray-800">
-                  Get Free Quote
+                  Get in touch
                 </Button>
                 <Button size="lg" variant="outline" className="border-gray-300 text-gray-700 hover:bg-gray-50">
-                  View Our Work
+                  See my work
                 </Button>
               </div>
             </div>
@@ -70,7 +71,7 @@ export default function HomePage() {
       <section id="services" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Services</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Services</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               We offer comprehensive data consulting services to meet all your business intelligence needs
             </p>
@@ -281,10 +282,7 @@ export default function HomePage() {
       <section id="contact" className="py-20 bg-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Ready to Transform Your Data?</h2>
-            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Contact us today for a free consultation. Let's discuss how data can drive your business forward.
-            </p>
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Work with me</h2>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -292,27 +290,24 @@ export default function HomePage() {
               <div className="bg-gray-800 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Phone className="h-8 w-8 text-white" />
               </div>
-              <h3 className="text-xl font-semibold text-white mb-2">Call Us</h3>
-              <p className="text-gray-300">(555) 123-4567</p>
-              <p className="text-gray-300 text-sm">Mon-Fri 7AM-6PM</p>
+              <h3 className="text-xl font-semibold text-white mb-2">Call</h3>
+              <p className="text-gray-300">+44 7552 081 278</p>
             </div>
 
             <div className="text-center">
               <div className="bg-gray-800 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Mail className="h-8 w-8 text-white" />
               </div>
-              <h3 className="text-xl font-semibold text-white mb-2">Email Us</h3>
-              <p className="text-gray-300">hello@inchoatus.com</p>
-              <p className="text-gray-300 text-sm">We respond within 24 hours</p>
+              <h3 className="text-xl font-semibold text-white mb-2">Email</h3>
+              <p className="text-gray-300">hello@inchoatus.co.uk</p>
             </div>
 
             <div className="text-center">
               <div className="bg-gray-800 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <MapPin className="h-8 w-8 text-white" />
               </div>
-              <h3 className="text-xl font-semibold text-white mb-2">Visit Us</h3>
-              <p className="text-gray-300">123 Business Center</p>
-              <p className="text-gray-300">Your City, ST 12345</p>
+              <h3 className="text-xl font-semibold text-white mb-2">Visit</h3>
+              <p className="text-gray-300">Near Leeds? Meet me for a coffee</p>
             </div>
           </div>
         </div>
@@ -325,28 +320,23 @@ export default function HomePage() {
             <div className="md:col-span-2">
               <div className="flex items-center space-x-2 mb-4">
                 <Image src="/logo.jpg" alt="Inchoatus Logo" width={300} height={300} className="h-16 w-auto" />
-                <span className="text-2xl font-bold">Inchoatus</span>
+                <span className="text-2xl font-bold">Inchoatus Ltd</span>
               </div>
               <p className="text-gray-200 mb-4 max-w-md">
                 Your trusted partner for data consulting and analytics solutions. Strategic insights, reliable
                 implementation, and measurable results.
               </p>
               <div className="text-sm text-gray-300">
-                <p>Certified Data Professional</p>
-                <p>Serving the Greater Metro Area</p>
+                <p>Inchoatus Ltd | Company No: 16533810 | Registered in England and Wales</p>
               </div>
             </div>
 
             <div>
               <h3 className="text-lg font-semibold mb-4">Contact</h3>
               <ul className="space-y-2 text-gray-200">
-                <li>(555) 123-4567</li>
-                <li>hello@inchoatus.com</li>
-                <li>
-                  123 Business Center
-                  <br />
-                  Your City, ST 12345
-                </li>
+                <li>+44 7552 081 278</li>
+                <li>hello@inchoatus.co.uk</li>
+                <li>Leeds, UK</li>
               </ul>
             </div>
           </div>
