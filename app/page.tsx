@@ -13,7 +13,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-2">
-              <Image src="/new-logo.png" alt="Inchoatus Logo" width={200} height={200} className="h-16 w-auto" />
+              <Image src="/logo.jpg" alt="Inchoatus Logo" width={200} height={200} className="h-16 w-auto" />
             </div>
             <nav className="flex space-x-8">
               <Link href="#services" className="text-gray-700 hover:text-black font-medium">
@@ -324,7 +324,8 @@ export default function HomePage() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="md:col-span-2">
               <div className="flex items-center space-x-2 mb-4">
-                <Image src="/new-logo.png" alt="Inchoatus Logo" width={300} height={300} className="h-16 w-auto" />
+                <Image src="/logo.jpg" alt="Inchoatus Logo" width={300} height={300} className="h-16 w-auto" />
+                <span className="text-2xl font-bold">Inchoatus</span>
               </div>
               <p className="text-gray-200 mb-4 max-w-md">
                 Your trusted partner for data consulting and analytics solutions. Strategic insights, reliable
