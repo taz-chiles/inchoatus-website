@@ -302,7 +302,7 @@ export default function HomePage() {
               {
                 icon: Phone,
                 title: "Call",
-                primary: "+44 7552 081 278",
+                primary: "00000000",
                 secondary: "Available for initial consultations",
               },
               {
@@ -349,7 +349,7 @@ export default function HomePage() {
             <div>
               <h3 className="text-lg font-semibold mb-4 text-white">Contact</h3>
               <ul className="space-y-2 text-white opacity-90">
-                <li>+44 7552 081 278</li>
+                <li>00000000</li>
                 <li>hello@inchoatus.co.uk</li>
                 <li>Leeds, UK</li>
               </ul>
