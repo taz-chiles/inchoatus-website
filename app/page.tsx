@@ -38,22 +38,21 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Tazmin Chiles</h1>
-              <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mb-6">
-                Data Consultant | Evaluation Partner
-              </h2>
+              <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                Your Data Consultant & Evaluation Partner
+              </h1>
               <div className="space-y-4 text-lg text-gray-600 leading-relaxed">
                 <p>
-                  I am an independent data consultant specializing in helping organizations unlock insights from their
-                  data to improve outcomes and drive evidence-based decision making.
+                  Supporting organisations to use
+                  data to improve outcomes and enable evidence-based decision making.
                 </p>
                 <p>
-                  I offer a range of services including data analysis, evaluation design, research support, and
-                  strategic data consultancy to help you make the most of your information assets.
+                  We support with data analysis, evaluation design, research support, project management and
+                  strategic data consultancy. 
                 </p>
                 <p>
-                  I collaborate with charities, public sector organizations, healthcare providers, and research
-                  institutions to connect complex data with actionable insights that make a real difference.
+                  We work with charities, public sector organisations, healthcare providers, and research
+                  institutions to data with outcomes that make a difference.
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4 mt-8">
