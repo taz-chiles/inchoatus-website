@@ -23,7 +23,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-2">
-              <Image src="/white-logo.png" alt="Inchoatus Logo" width={100} height={100} className="h-12 w-auto" />
+              <Image src="/logo.jpg" alt="Inchoatus Logo" width={100} height={100} className="h-16 w-auto" />
             </div>
             <nav className="hidden md:flex space-x-8">
               <Link
@@ -337,7 +337,7 @@ export default function HomePage() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="md:col-span-2">
               <div className="flex items-center space-x-3 mb-6">
-                <Image src="/white-logo.png" alt="Inchoatus Logo" width={100} height={100} className="h-12 w-auto" />
+                <Image src="/logo.jpg" alt="Inchoatus Logo" width={100} height={100} className="h-16 w-auto" />
                 <span className="text-2xl font-bold text-white">Inchoatus Ltd</span>
               </div>
               <div className="text-sm text-white space-y-2 opacity-90">
