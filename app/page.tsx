@@ -23,7 +23,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-2">
-              <Image src="/logo.jpg" alt="Inchoatus Logo" width={150} height={150} />
+              <Image src="/black-purple.png" alt="Inchoatus Logo" width={150} height={150} />
             </div>
             <nav className="hidden md:flex space-x-8">
               <Link
@@ -51,9 +51,6 @@ export default function HomePage() {
                 Contact
               </Link>
             </nav>
-            <div className="flex items-center space-x-4">
-              <Search className="h-5 w-5 text-gray-600 cursor-pointer hover:text-gray-900 transition-colors duration-200" />
-            </div>
           </div>
         </div>
       </header>
@@ -74,13 +71,13 @@ export default function HomePage() {
               <Button
                 size="lg"
                 className="text-white px-8 py-4 text-lg font-semibold rounded-full hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
-                style={{ backgroundColor: "#38174f" }}
+                style={{ backgroundColor: "#2a123b" }}
               >
                 Work with me
               </Button>
 
               <div className="mt-16">
-                <p className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-4">OUR SERVICES</p>
+                <p className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-4">Services</p>
                 <ChevronDown className="h-6 w-6 text-gray-400 animate-bounce" />
               </div>
             </div>
@@ -89,10 +86,11 @@ export default function HomePage() {
               className={`relative transform transition-all duration-1000 delay-300 ${isVisible ? "translate-x-0 opacity-100" : "translate-x-10 opacity-0"}`}
             >
               <div className="relative">
-                <div className="absolute inset-0 bg-gradient-to-r from-purple-100 to-purple-50 rounded-full transform rotate-6 scale-105"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-purple-100 to-purple-50 rounded-full transform rotate-6 scale-105"></div>
+
                 <div className="relative bg-white rounded-full p-8 shadow-2xl">
                   <Image
-                    src="/placeholder.svg?height=500&width=600"
+                    src="/designer-coding-client-site.jpg?height=500&width=600"
                     alt="Data analytics and insights visualization"
                     width={600}
                     height={500}
@@ -109,7 +107,7 @@ export default function HomePage() {
       <section id="services" className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Our Services</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Services</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               We offer comprehensive data consulting services to meet all your business intelligence needs
             </p>
@@ -290,10 +288,8 @@ export default function HomePage() {
       <section id="contact" className="py-20 bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">Work with me</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">Get in touch</h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Ready to unlock insights from your data? Let's discuss how I can help you achieve your goals through
-              evidence-based analysis and strategic evaluation.
             </p>
           </div>
 
@@ -303,19 +299,19 @@ export default function HomePage() {
                 icon: Phone,
                 title: "Call",
                 primary: "00000000",
-                secondary: "Available for initial consultations",
+                // secondary: "Available for initial consultations",
               },
               {
                 icon: Mail,
                 title: "Email",
                 primary: "hello@inchoatus.co.uk",
-                secondary: "I respond within 24 hours",
+                // secondary: "I respond within 24 hours",
               },
               {
                 icon: MapPin,
                 title: "Meet",
                 primary: "Leeds & surrounding areas",
-                secondary: "Happy to meet for coffee",
+                // secondary: "Happy to meet for coffee",
               },
             ].map((contact, index) => (
               <div key={index} className="text-center group">
@@ -332,7 +328,7 @@ export default function HomePage() {
       </section>
 
       {/* Footer */}
-      <footer className="text-white py-8" style={{ backgroundColor: "#38174f" }}>
+      <footer className="text-white py-8" style={{ backgroundColor: "#2a123b" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-3 gap-8">
             <div className="md:col-span-2">
